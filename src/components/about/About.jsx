@@ -8,23 +8,31 @@ function About() {
       <h1>More about me...</h1>
 
       <div className="container about__container">
-{/*         <div className="about__me">
+        {/*         <div className="about__me">
            <div className="about__me-image">
             <img src={ME} alt="About-Img" />
           </div> 
         </div> */}
         <div className="about__content">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+          I'm Mariana, a Full-stack Developer with a passion for coding that
+          began during my studies in Naval Engineering and Architecture. My
+          first exposure to C++ sparked my curiosity and ignited my love for
+          coding. With a background in Event Planning, Airport Operations, and
+          Sales in the hospitality industry, I have honed my skills in planning,
+          stress management, and prioritization. These roles have developed my
+          exceptional organizational abilities and customer-centric mindset. As
+          an empathic individual, I understand the importance of meeting the
+          unique requirements of customers and stakeholders. This skill has
+          allowed me to successfully execute events, manage operations, and
+          build strong client relationships. I believe in taking a holistic
+          approach that considers both the technical and human aspects of a
+          project to achieve outstanding results. I'm excited to leverage my
+          technical expertise, organizational prowess, and empathic nature to
+          create meaningful solutions. Let's embark on this journey together!
         </div>
-        <a href="#contact" className='letsTalk-btn'>Let's Talk</a>
+        <a href="#contact" className="letsTalk-btn">
+          Let's Talk
+        </a>
       </div>
     </section>
   );
