@@ -1,0 +1,25 @@
+/* .top::before{
+    content: "";
+    display: block;
+    width: 10rem;
+    height: 1px;
+    background: pink;
+    margin-top: 2.2rem;
+} */
+
+.top{
+    background:transparent;
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: center;
+}
+
+
+.permalinks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}

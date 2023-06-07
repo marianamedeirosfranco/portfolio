@@ -1,0 +1,29 @@
+ footer{
+    background:transparent;
+    backdrop-filter: blur(20px);
+    color: rgb(243, 43, 133);
+    padding: 2rem 0;
+    margin-top: 4rem;
+    text-align: left;
+    font-size: 0.9rem;
+
+}
+
+ .footer__copyright > small{
+    margin:2px;
+    
+} 
+
+.footer__copyright small::before{
+    content: "";
+    display: block;
+    width: 15rem;
+    height: 1px;
+    background: pink;
+    margin-bottom: 5px;
+}
+
+
+.footer__copyright a{
+    color:rgb(247, 92, 162);
+}
