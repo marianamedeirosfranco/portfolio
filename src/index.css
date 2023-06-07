@@ -40,6 +40,8 @@ body {
   line-height: 1.7;
   background-image: url(../src/assets/backgroundLALA.jpg);
   background-size: contain;
+
+
 /*   transform: scaleY(-1) */
 
 }
@@ -100,8 +102,9 @@ a:hover {
   transition: var(--transition);
 }
 
-.bth:hover {
+.btn:hover {
   background: var(--color-white);
+  box-shadow: 0 0.15em 1.9em rgb(156, 156, 156);
   color: var(--color-bg);
   border-color: transparent;
 }
