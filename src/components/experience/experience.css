@@ -14,8 +14,9 @@
 }
 
 .experience__container > div:hover {
-    background-color: rgba(55, 90, 105, 0.7);
-    backdrop-filter: blur(4px);
+    background: rgba(0,0,0,0.5);
+    box-shadow: 0 0.15em 1.9em rgb(156, 156, 156);
+    backdrop-filter: blur(2px);
     border-color: transparent;
     cursor: default;
 }

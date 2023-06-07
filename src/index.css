@@ -14,7 +14,7 @@
   --color-bg: #1f1f38;
   --color-bg-variant: #2c2c6c;
   --color-primary: #9ef3f9; /* #4db5ff; */
-  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-primary-variant: rgba(250, 208, 239, 0.4);
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
 
@@ -40,7 +40,6 @@ body {
   line-height: 1.7;
   background-image: url(../src/assets/backgroundLALA.jpg);
   background-size: contain;
-  overflow: hidden;
 /*   transform: scaleY(-1) */
 
 }
