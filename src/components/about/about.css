@@ -1,61 +1,60 @@
 .letsTalk-btn {
-    width: max-content;
-    background-color: transparent;
-
-    display: block;
-    margin: 0 auto;
-    color: var(--color-primary);
-    padding: 0.75rem 1.2rem;
-    border-radius: 0.4rem;
-    cursor: pointer;
-    backdrop-filter: blur(40px);
-/*     border: transparent; */
-    transition: var(--transition);
+  width: max-content;
+  background-color: transparent;
+  display: block;
+  margin: 0 auto;
+  color: var(--color-primary);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  backdrop-filter: blur(40px);
+  background-color: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0.1em 1em rgb(156, 156, 156);
+  transition: var(--transition);
 }
 
 .letsTalk-btn:hover {
-    background:rgba(25, 25, 46, 0.8);
-    color: white;
-    border-color: transparent;
-    box-shadow: 0 0.15em 1.9em rgb(156, 156, 156);
-    transform: scale(1.08);
+  background: rgba(25, 25, 46, 0.8);
+  color: white;
+  border-color: transparent;
+  box-shadow: 0 0.15em 1.9em rgb(156, 156, 156);
+  transform: scale(1.08);
 }
 
-#about>h1{
-    text-align: center;
-    margin-bottom: 2rem;
-    background: linear-gradient(to right, #e34bb5, #f5f3f4);
+#about > h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  background: linear-gradient(to right, #e34bb5, #f5f3f4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.about__content{
-    border:1px solid transparent;
-    border-radius: 1rem;
-    line-height: 1.8;
-    color: var(--color-white);
-    backdrop-filter: blur(10px);
-    margin: 1.4rem 0 2.2rem;
-    padding: 2rem;
-    text-align: center;
-    transition: transform 0.9s;
+.about__content {
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  line-height: 1.8;
+  color: var(--color-white);
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 1.4rem 0 2.2rem;
+  padding: 2rem;
+  text-align: center;
+  transition: transform 0.9s;
 }
 
-.about__content:hover{
-    background: blur(40px);
-    color: var(--color-white);
-    box-shadow: 0 0.6em 3em rgb(156, 156, 156);
-    transform: scale(1.08);
-    
+.about__content:hover {
+  background: blur(40px);
+  color: var(--color-white);
+  box-shadow: 0 0.1em 1em rgb(156, 156, 156);
+  transform: scale(1.08);
 }
 
 /* Medium Queries (Medium Devices - TABLETS */
 
 @media screen and (max-width: 1024px) {
-  }
-  
-  /* Medium Queries (Small Devices - TABLETS */
-  
-  @media screen and (max-width: 600px) {
-    
-  }
+}
+
+/* Medium Queries (Small Devices - TABLETS */
+
+@media screen and (max-width: 600px) {
+}
