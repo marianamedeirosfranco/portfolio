@@ -6,6 +6,7 @@
 
 .portfolio__item{
   backdrop-filter: blur(10px);
+  box-shadow: 0 0.02em 0.7em rgb(156, 156, 156);
   background-color: rgba(0, 0, 0, 0.4);
   padding: 1.2rem;
   border-radius: 2rem;
@@ -16,16 +17,16 @@
 .portfolio__item:hover{
   backdrop-filter: blur(10px);
   background-color: rgba(0, 0, 0, 0.1);
+  transform: scale(1.004);
 }
 
 
-.portfolio__item-image {
-  height: 180px; 
+.portfolio__item-image{
+height: 180px; 
   width: 100%;
   border-radius: 1.5rem;
-  overflow: hidden;
-  object-fit: contain; 
-  
+  overflow: hidden; 
+  object-fit: cover;
 }
 
 .portfolio__item h3{
@@ -61,18 +62,18 @@
 
 /* Medium Queries (Medium Devices - TABLETS */
 
-@media screen and (max-width: 1024px){
-    .portfolio__container {
-      grid-template-columns: 1fr 1fr;
-      gap: 1.2rem;
-    }
-  }
-  
-  /* Medium Queries (Small Devices - TABLETS */
-  
-  @media screen and (max-width: 600px){
-    .portfolio__container{
-        grid-template-columns: 1fr;
-        gap:1rem;
-    }
-  }
+@media screen and (max-width: 1024px) {
+.portfolio__container {
+    grid-template-columns: 1fr 1fr;
+    gap:1.2rem;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+.portfolio__container {
+    grid-template-columns: 1fr;
+    gap:1rem;
+}
+
+}

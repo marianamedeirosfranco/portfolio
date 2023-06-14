@@ -40,10 +40,6 @@ body {
   line-height: 1.7;
   background-image: url(../src/assets/backgroundLALA.jpg);
   background-size: contain;
-
-
-/*   transform: scaleY(-1) */
-
 }
 /* ===============General styles=============== */
 
@@ -76,10 +72,6 @@ section > h5 {
 section > h2 {
   color: var(--color-primary);
   margin-bottom: 3rem;
-}
-
-.text-light {
-  color: var();
 }
 
 a {
@@ -117,7 +109,7 @@ a:hover {
 .img {
   display: block;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 /* Medium Queries (Medium Devices - TABLETS */
@@ -129,18 +121,27 @@ a:hover {
 
   section {
     margin-top: 6rem;
-    height: 100vh;
   }
 }
 
 /* Medium Queries (Small Devices - Mobile */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
   .container {
-    width: var(--container-width-sm);
+      width:var(--container-width-md);
   }
 
   section {
-    margin-bottom: 2rem;
+      margin-top: 6rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+      width:var(--container-width-sm);
+  }
+
+  section > h2 {
+      margin-bottom: 2rem;
   }
 }
