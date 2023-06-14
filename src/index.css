@@ -91,7 +91,7 @@ a:hover {
   color: var(--color-white);
 }
 
-.btn {
+/* .btn {
   width: max-content;
   display: inline-block;
   color: var(--color-primary);
@@ -107,7 +107,7 @@ a:hover {
   box-shadow: 0 0.15em 1.9em rgb(156, 156, 156);
   color: var(--color-bg);
   border-color: transparent;
-}
+} */
 
 .btn-primary {
   background: var(--color-primary);

@@ -43,10 +43,10 @@ function Portfolio() {
               </div>
               <h3>{title}</h3>
               <div className="portfolio__item-cta">
-                <a href={github} className="btn" target="_blank">
+                <a href={github} className="portfolioBtn" target="_blank">
                   Code
                 </a>
-                <a href={demo} className="btn btn-primary" target="_blank">
+                <a href={demo} className="portfolioBtn" target="_blank">
                   DEMO
                 </a>
               </div>

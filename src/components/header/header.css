@@ -16,8 +16,8 @@ header {
   height: 100%;
   border: 1px solid transparent;
   border-radius: 1rem;
-  margin: -4rem 2rem 4rem;
-  padding: 4rem;
+  margin: -3rem 6rem 3rem;
+  padding: 3.1rem;
   text-align: center;
   transition: transform 0.9s;
 }
@@ -47,7 +47,7 @@ header {
 
 /* ======== CTA ======= */
 .cta {
-  margin-top: 2.5rem;
+  margin-top: 2rem;
   display: flex;
   gap: 1.2rem;
   justify-content: center;
@@ -117,6 +117,21 @@ header {
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 0.9rem;
+}
+
+.ctaBtn{
+  cursor: pointer;
+  backdrop-filter: blur(40px);
+  background-color: rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0.05em 0.5em rgb(156, 156, 156);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+}
+
+.ctaBtn:hover{
+  background-color: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0.1em 1em rgb(156, 156, 156);
+  transform: scale(1.05);
 }
 
 /* Medium Queries (Medium Devices - TABLETS */

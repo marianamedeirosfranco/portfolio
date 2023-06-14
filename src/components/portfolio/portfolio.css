@@ -5,7 +5,8 @@
 }
 
 .portfolio__item{
-  background: var(--color-bg-variant);
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.4);
   padding: 1.2rem;
   border-radius: 2rem;
   border: 1px solid transparent;
@@ -13,8 +14,8 @@
 }
 
 .portfolio__item:hover{
-  border-color: var(--color-primary-variant);
-  background: transparent;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 
@@ -35,6 +36,27 @@
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+}
+
+.portfolioBtn{
+  cursor: pointer;
+  color: var(--color-white);
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0.05em 0.5em rgb(156, 156, 156);
+  transition: var(--transition);
+  padding: 1rem 1.2rem;
+  border-radius: 0.4rem;
+}
+
+.portfolioBtn:hover{
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0.15em 2em rgb(156, 156, 156);
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0.1em 0.8em rgb(156, 156, 156);
+  transform: scale(1.08);
 }
 
 /* Medium Queries (Medium Devices - TABLETS */
