@@ -1,6 +1,5 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/Foto Mariana.jpg";
 
 function About() {
   return (
@@ -8,11 +7,6 @@ function About() {
       <h1>More about me...</h1>
 
       <div className="container about__container">
-        {/*         <div className="about__me">
-           <div className="about__me-image">
-            <img src={ME} alt="About-Img" />
-          </div> 
-        </div> */}
         <div className="about__content">
           I'm Mariana, a Full-stack Developer with a passion for coding that
           began during my studies in Naval Engineering and Architecture. My

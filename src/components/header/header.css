@@ -97,13 +97,19 @@ header {
 .me {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 80%);;
   width: 25rem;
-  height: 20rem;
+  height: 18rem;
   position: relative;
   left: calc(50% - 11rem);
-  margin-top: 3rem;
+  margin-top: 2.5rem;
   border-radius: 4rem;
   overflow: hidden;
-  padding: 1.5rem 0.3rem;
+  box-shadow: 0 0.05em 0.5em rgb(156, 156, 156);
+}
+
+.me > img{
+  margin-top: -6.5rem;
+  margin-left: -6rem;
+
 }
 
 /* ======== SCROLL DOWN ======= */

@@ -18,7 +18,7 @@ function Top() {
           <a href="#experience">Experience</a>
         </li>
         <li>
-          <a href="#contacts">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
 
