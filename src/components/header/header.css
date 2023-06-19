@@ -2,7 +2,6 @@ header {
   height: 100vh;
   padding-top: 4rem;
   overflow: visible;
-  
 }
 
 .header__container {
@@ -18,7 +17,7 @@ header {
   box-shadow: 0 0.02em 0.7em rgb(156, 156, 156);
   border: 1px solid transparent;
   border-radius: 1rem;
-  margin: -3rem 6rem 3rem;
+  margin: -4rem 6rem 3rem;
   padding: 3.1rem;
   text-align: center;
   transition: transform 0.9s;
@@ -62,7 +61,6 @@ header {
   width: 1px;
   height: 2rem;
   background: rgb(249, 187, 228);
-  
 }
 
 .header__socials {
@@ -95,7 +93,11 @@ header {
 /* ======== ME ======= */
 
 .me {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 80%);;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0) 80%
+  );
   width: 25rem;
   height: 18rem;
   position: relative;
@@ -106,10 +108,9 @@ header {
   box-shadow: 0 0.05em 0.5em rgb(156, 156, 156);
 }
 
-.me > img{
+.me > img {
   margin-top: -6.5rem;
   margin-left: -6rem;
-
 }
 
 /* ======== SCROLL DOWN ======= */
@@ -127,7 +128,7 @@ header {
   font-size: 0.9rem;
 }
 
-.ctaBtn{
+.ctaBtn {
   cursor: pointer;
   backdrop-filter: blur(40px);
   background-color: rgba(0, 0, 0, 0.4);
@@ -136,7 +137,7 @@ header {
   border-radius: 0.4rem;
 }
 
-.ctaBtn:hover{
+.ctaBtn:hover {
   background-color: rgba(0, 0, 0, 0.3);
   box-shadow: 0 0.1em 1em rgb(156, 156, 156);
   transform: scale(1.05);
